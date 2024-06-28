@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-title {
+  text-align: center;
+  margin: 20px auto;
+}
+.section-results {
+  margin: 10px 20px;
+}
+
+form {
+  margin-top: 45px;
+  flex-direction: column;
+}
+.results {
+  margin-top: 25px;
+}
+.table {
+  text-align: center;
+}
+
+.results__summary {
+  display: flex;
+  justify-content: center;
+}
+.results__tables {
+  display: flex;
+  justify-content: space-around;
+}
+
+#getAllCountries {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#get-country-button,
+#form__country-name-input {
+  width: 80%;
+}
+
+.card {
+  text-align: center;
+  padding-top: 15px;
+}
