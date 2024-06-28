@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Test B - JQuery And AJAX</title>
+</head>
+
+<body>
+
+    <header class="page-header">
+        <h1 class="header-title">
+            Statistics on countries
+        </h1>
+    </header>
+    <main>
+        <div class="container">
+            <section class="section-form">
+                <div class="row">
+                    <div class="form-button__all">
+                        <button type="button" id="getAllCountries" class="btn btn-outline-primary">Get all
+                            countries</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 offset-3">
+                        <form class="row g-3">
+                            <div class="col-auto mb-3">
+                                <label for="form__country-name-input" class="form-label">Country name</label>
+                                <input type="text" class="form-control" id="form__country-name-input"
+                                    placeholder="Enter a country name">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" id="get-country-button"
+                                    class="btn btn-primary mb-3">Serch</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="section-results">
+                <div class="results results__summary"></div>
+                <div class="row results__tables">
+                    <div class="col-md-5 mr-2 results results__citizens-table" id="results__citizens-table"></div>
+                    <div class="col-md-5 results results__region-table" id="results__region-table"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
